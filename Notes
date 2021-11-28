@@ -1,0 +1,7 @@
+Setting up virtual environment -> https://www.youtube.com/watch?v=N5vscPTWKOk&ab_channel=CoreySchafer
+
+To activate the environment in windows use:  Scripts\activate 
+To deactivate the virtual environment in windows use: Scripts\deactivate
+
+Follwing error may pop up in windows, to resolve checkout: https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
+
