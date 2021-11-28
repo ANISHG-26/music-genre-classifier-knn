@@ -61,7 +61,7 @@ for folder in os.listdir(os.path.join("data")):
     results[i] = folder
     i+=1
 
-(rate,sig) = wav.read(os.path.join("sample","gang.wav"))
+(rate,sig) = wav.read(os.path.join("sample","beethoven.wav"))
 mfcc_feat = mfcc(sig,rate,winlen=0.020,appendEnergy=False)
 covariance = np.cov(np.matrix.transpose(mfcc_feat))
 mean_matrix = mfcc_feat.mean(0)
